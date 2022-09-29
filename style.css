@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+
+@font-face{
+    font-family:'road';
+    src: url(./Fonts/baloo-chettan.ttf);
+}
+
+body{
+    /* margin-left: 100px; */
+}
+
+.head{
+    margin-top: 100px;
+    background-color: #0C0F38;
+    width: 100%;
+}
+
+.head-A{
+    margin-left: 100px;
+}
+
+.head-A h1{
+    font-size: 67px;
+    font-family: road ;
+    line-height: 90px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    font-weight: bold;
+    color: white;
+}
