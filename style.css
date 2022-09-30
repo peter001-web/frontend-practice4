@@ -24,9 +24,22 @@ body{
 .head-A h1{
     font-size: 67px;
     font-family: road ;
+    /* font-family: cursive; */
     line-height: 90px;
     padding-bottom: 30px;
     padding-top: 40px;
     font-weight: bold;
     color: white;
+}
+
+.head-A h2{
+    font-size: 35px;
+    font-family: road ;
+    line-height: 35px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.head-A span h2{
+    color: #DA16E6;
 }
