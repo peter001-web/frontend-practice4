@@ -12,7 +12,7 @@ body{
 }
 
 .head{
-    margin-top: 100px;
+    margin-top: 60px;
     background-color: #0C0F38;
     width: 100%;
 }
@@ -42,4 +42,22 @@ body{
 
 .head-A span h2{
     color: #DA16E6;
+    margin: 15px 0;
+}
+
+.head-A button{
+    font-size: 17px;
+    background-color: #fff;
+    color: #da16e6;
+    padding: 13px 0px;
+    width: 100%;
+    max-width: 190px;
+    text-align: center;
+    display: inline-block;
+    transition: ease-in all 0.5s;
+}
+
+.head-A button:hover{
+    color: white;
+    background-color: #DA16E6;
 }
