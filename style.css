@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    border: 1px solid red;
 }
 
 @font-face{
@@ -15,10 +16,15 @@ body{
     margin-top: 60px;
     background-color: #0C0F38;
     width: 100%;
+    display: flex;
+}
+
+.H{
+    display: flex;
 }
 
 .head-A{
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 .head-A h1{
@@ -45,6 +51,10 @@ body{
     margin: 15px 0;
 }
 
+.head img{
+    margin-left: 100px;
+}
+
 .head-A button{
     font-size: 17px;
     background-color: #fff;
@@ -60,4 +70,27 @@ body{
 .head-A button:hover{
     color: white;
     background-color: #DA16E6;
+}
+
+
+.box{
+    margin-top: 60px;
+    border: solid;
+    width: 50%;
+    /* margin-bottom: 50px; */
+    background-color: #BB13C6;
+}
+
+.box-A{
+    display: flex;
+    gap: 20px;
+}
+
+.box img{
+    width: 70%;
+}
+
+.box-A h4{
+    color: white;
+    cursor: pointer;
 }
