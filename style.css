@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 @font-face{
@@ -13,18 +13,20 @@ body{
 }
 
 .head{
-    margin-top: 60px;
+    margin-top: 40px;
     background-color: #0C0F38;
     width: 100%;
-    display: flex;
+    margin-bottom: 30px;
 }
 
 .H{
     display: flex;
+    margin-bottom: 100px;
+    /* margin-right: 40px; */
 }
 
 .head-A{
-    /* margin-left: 100px; */
+    margin-left: 100px;
 }
 
 .head-A h1{
@@ -36,6 +38,7 @@ body{
     padding-top: 40px;
     font-weight: bold;
     color: white;
+    margin-top: 30px;
 }
 
 .head-A h2{
@@ -74,23 +77,34 @@ body{
 
 
 .box{
-    margin-top: 60px;
-    border: solid;
-    width: 50%;
+    /* margin-top: 60px; */
+    /* border: solid; */
+    width: 100%;
     /* margin-bottom: 50px; */
     background-color: #BB13C6;
 }
 
 .box-A{
+    margin: auto;
     display: flex;
-    gap: 20px;
+    gap: 30px;
+    width: 50%;
 }
 
 .box img{
-    width: 70%;
+    width: 100%;
 }
 
 .box-A h4{
     color: white;
     cursor: pointer;
+    /* margin: auto; */
+    margin-top: 60px;
+    font-size: 17px;
+    font-family: sans-serif;
+    transition: 0.9s;
+}
+
+.box-A h4:hover{
+    color: black;
 }
