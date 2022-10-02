@@ -22,7 +22,7 @@ body{
     margin-top: 40px;
     background-color: #0C0F38;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 90px;
 }
 
 .H{
@@ -58,6 +58,7 @@ body{
 .head-A span h2{
     color: #DA16E6;
     margin: 15px 0;
+    margin-top: 20px;
 }
 
 .head img{
@@ -70,6 +71,7 @@ body{
     color: #da16e6;
     padding: 13px 0px;
     width: 100%;
+    margin-top: 40px;
     max-width: 190px;
     text-align: center;
     display: inline-block;
@@ -105,7 +107,7 @@ body{
     color: white;
     cursor: pointer;
     /* margin: auto; */
-    margin-top: 60px;
+    margin-top: 50px;
     font-size: 17px;
     font-family: sans-serif;
     transition: 0.9s;
@@ -212,3 +214,19 @@ body{
     background-color: #DA16E6;
 }
 
+
+.sect-1{
+    background-color: #0C0F38;
+    margin-bottom: 100px;
+    padding: 50px;
+}
+
+.second-section h2 {
+    font-size: 50px;
+    font-family: road,cursive;
+    color: white;
+}
+
+.second-section span h2 {
+    color: #DA33E2;
+}
