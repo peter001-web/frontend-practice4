@@ -132,23 +132,83 @@ body{
 }
 
 .first-section p{
-    font-size: 16px;
+    /* font-size: 16px;
     font-family: new,sans-serif;
-    /* margin: auto; */
+    margin: auto;
     width: 80%;
     margin-top: 20px;
     color: rgb(116, 115, 115);;
     line-height: 1.9em;
-    margin-left: 100px;
+    margin-left: 150px; */
 }
 
-.first-section pp{
+.first-section {
     font-size: 16px;
     font-family: new,sans-serif;
-    /* margin: auto; */
-    width: 0%;
+    margin: auto;
+    width: 100%;
     margin-top: 20px;
-    color: rgb(116, 115, 115);;
-    line-height: 1.9em;
-    margin-left: 500px;
+    margin-bottom: 100px;
+    /* color: rgb(116, 115, 115);; */
+    /* line-height: 1.9em; */
 }
+
+.p1{
+    font-size: 16px;
+    /* font-family: new,sans-serif; */
+    margin: auto;
+    width: 70%;
+    margin-top: 5px;
+    color: rgb(116, 115, 115);;
+    margin-left: 270px;
+}
+
+.p2{
+    font-size: 16px;
+    /* font-family: new,sans-serif; */
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    color: rgb(116, 115, 115);;
+    margin-left: 150px;
+}
+
+.p3{
+    font-size: 16px;
+    font-family: new,sans-serif;
+    margin: auto;
+    width: 50%;
+    margin-top: 5px;
+    color: rgb(116, 115, 115);;
+    margin-left: 410px;
+}
+
+.first-section img{
+    margin-top: 50px;
+    /* width: 90%; */
+    margin-left: 300px;
+}
+
+.first-section button{
+    font-size: 17px;
+    font-family: new,sans-serif;
+    color: white;
+    background-color: black;
+    padding: 13px 0;
+    margin-left: 550px;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 190px;
+    text-align: center;
+    display: inline-block;
+    padding: 13px 0px;
+    transition: all 0.5s ease-in 0s;
+    cursor: pointer;
+    border-style: none;
+    
+}
+
+.first-section button:hover{
+    background-color: #DA16E6;
+}
+
