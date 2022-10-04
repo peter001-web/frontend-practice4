@@ -121,12 +121,13 @@ body{
 .first-section h2{
     font-size: 50px;
     font-family: road;
+    font-family: cursive;
     color: rgb(12, 15, 56);
     /* line-height: 61px; */
     font-weight: bold;
     padding: 0px;
     margin: auto;
-    width: 40%;
+    width: 50%;
 }
 
 .first-section span{
@@ -217,16 +218,109 @@ body{
 
 .sect-1{
     background-color: #0C0F38;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     padding: 50px;
+    display: flex;
 }
 
 .second-section h2 {
     font-size: 50px;
     font-family: road,cursive;
     color: white;
+    font-family: road;
+    font-family: cursive;
+
+}
+
+.second-section{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .second-section span h2 {
     color: #DA33E2;
+    font-family: road;
+    font-family: cursive;
 }
+
+
+.second-section  h3 {
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+    font-family: road;
+    /* padding-left: 40px; */
+    font-weight: 500;
+    font-family: cursive;
+}
+
+.number span{
+    /* color: #da16e6;
+    border: 1px solid;
+    font-size: 40px;
+    padding: 30px 30px;
+    background-color: white;
+    border-radius: 700px; */
+
+    font-size: 30px;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: rgb(222, 50, 233);
+    background: rgb(255, 255, 255);
+    border-radius: 51px;
+}
+
+.number{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+
+
+
+.second-section p{
+    color: white;
+    width: 90%;
+    font-size: 17px;
+    font-family: new;
+    font-family: sans-serif;
+    margin-top: 30px;
+    line-height: 1.5em;
+}
+
+.second-section button{
+    font-size: 17px;
+    font-family: new,sans-serif;
+    color: #DE2FE9;
+    background-color: white;
+    padding: 13px 0;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 190px;
+    text-align: center;
+    display: inline-block;
+    padding: 13px 0px;
+    transition: all 0.5s ease-in 0s;
+    cursor: pointer;
+    border-style: none;
+}
+
+
+.second-section button:hover{
+    background-color: #DA16E6;
+    color: white;
+}
+
+.sect-1 img{
+    width: 30%;
+    margin-top: 50px;
+    height: 600px;
+    margin-right: 80px;
+}
+
