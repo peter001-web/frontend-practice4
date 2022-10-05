@@ -324,3 +324,38 @@ body{
     margin-right: 80px;
 }
 
+
+.foot{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #F4F5FE;
+}
+
+.foot-1{
+}
+
+.foot-1 h2{
+    /* margin-top: 30px; */
+    font-size: 50px;
+    font-family: road;
+    font-family: cursive;
+    color: rgb(12, 15, 56);
+    /* line-height: 61px; */
+    font-weight: bold;
+    padding: 0px;
+    margin: auto;
+    width: 50%;
+}
+
+.foot-1 span{
+    color: #da16e6;
+}
+
+.foot-1 p{
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: new;
+    font-family: sans-serif;
+    color: #666666;
+    margin-left: 140px;
+}
