@@ -400,3 +400,35 @@ body{
      margin: auto;
      width: 60%;
 }
+
+.foot-box h3{
+    color: white;
+    font-size: 13px;
+    padding-top: 10px;
+    font-family: new;
+    font-family: sans-serif;
+    margin: auto;
+    width: 60%;
+}
+
+.foot-box span h3{
+    margin: auto;
+    width: 70%;
+    margin-top: 15px;
+}
+
+.foot-logo img{
+    width: 2%;
+    border: solid;
+    margin-left: 10px;
+    border-style: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 45px;
+    cursor: pointer;
+    transition: all 0.5s ease-in 0s;
+}
+
+.foot-logo img:hover{
+    background-color: #DA16E6;
+}
