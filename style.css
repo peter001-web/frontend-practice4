@@ -384,3 +384,19 @@ body{
     font-family: cursive;
     color: rgb(12, 15, 56);
 }
+
+.footer-box{
+    margin-top: 150px;
+    background-color: #0C0F38;
+}
+
+.foot-box h2{
+     margin-top: 40px;
+     color: white;
+     padding-top: 50px;
+     font-size: 33px;
+     font-family: road;
+     font-family: cursive;
+     margin: auto;
+     width: 60%;
+}
