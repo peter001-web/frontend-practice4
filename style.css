@@ -359,3 +359,28 @@ body{
     color: #666666;
     margin-left: 140px;
 }
+
+.contact{
+    display: flex;
+    cursor: pointer;
+    gap: 10px;
+}
+
+
+.contact-A{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 100px;
+    gap: 20px;
+}
+
+.contact img{
+    width: 15%;
+}
+
+.contact h3{
+    font-size: 44px;
+    font-family: road;
+    font-family: cursive;
+    color: rgb(12, 15, 56);
+}
