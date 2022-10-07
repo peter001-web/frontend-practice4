@@ -327,7 +327,7 @@ body{
 
 .foot{
     margin-top: 100px;
-    margin-bottom: 100px;
+    /* margin-bottom: 50px; */
     background-color: #F4F5FE;
 }
 
@@ -394,11 +394,11 @@ body{
      margin-top: 40px;
      color: white;
      padding-top: 50px;
-     font-size: 33px;
+     font-size: 37px;
      font-family: road;
      font-family: cursive;
      margin: auto;
-     width: 60%;
+     width: 70%;
 }
 
 .foot-box h3{
@@ -409,6 +409,7 @@ body{
     font-family: sans-serif;
     margin: auto;
     width: 60%;
+    line-height: 1.5em;
 }
 
 .foot-box span h3{
@@ -418,17 +419,35 @@ body{
 }
 
 .foot-logo img{
-    width: 2%;
+    width: 10%;
     border: solid;
-    margin-left: 10px;
+    margin-left: 15px;
     border-style: none;
     background-color: white;
     padding: 10px;
     border-radius: 45px;
     cursor: pointer;
     transition: all 0.5s ease-in 0s;
+    margin-bottom: 50px;
+}
+
+.foot-logo{
+    margin: auto;
+    width: 23%;
+    margin-top: 35px;
 }
 
 .foot-logo img:hover{
     background-color: #DA16E6;
+}
+
+.footer-box p{
+    margin-top: 100px;
+}
+
+.copyright{
+    margin-top:30px;
+    margin-left: 450px;
+    margin-bottom: 30px;
+    font-size: 18px;
 }
